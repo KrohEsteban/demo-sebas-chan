@@ -1,7 +1,20 @@
 # demo-sebas-chan
 
-Repositorio de demostración para probar un flujo básico con Git y GitHub.
+Demo repository to practice a basic Git and GitHub workflow.
 
-## Uso
+## Usage
 
-Explora el contenido, realiza cambios y practica commits y pushes.
+Run the greeting script directly:
+
+```sh
+./hello.py
+./hello.py --name Alice
+```
+
+Or through the Makefile:
+
+```sh
+make run
+make run ARGS="--name Alice"
+make check
+```
